@@ -1,0 +1,114 @@
+{
+  "bands": [
+    {
+      "id": "1",
+      "name": "Parking Lot Party",
+      "genres": [
+        "Indie",
+        "RnB",
+        "Funk"
+      ],
+      "musicianIds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "bio": "Originating from Lincoln, Nebraska, Parking Lot Party offers a fusion of indie, funk, and R&B with some Midwest energy. They deliver infectious rhythms and electrifying performances, drawing audiences to the dance floor. Taking inspiration from Lincoln's vibrant music scene, their genre-defying sound combines smooth harmonies with a funky, throwback feel. Parking Lot Party continues to carve out their unique niche in Lincoln's music while recently releasing singles “Get You Right Back” and “Over It” recorded at B24 Studios in Kansas City. Grab your friends, your dancing shoes, and join the party!",
+      "profilePic": "http://localhost:3000/assets/images/profile/band/parkinglotparty.jpg"
+    }
+  ],
+  "musicians": [
+    {
+      "id": "1",
+      "name": "Carson Dettmer",
+      "instruments": [
+        "Electric Guitar"
+      ],
+      "bandIds": [
+        1
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Canyon Skare",
+      "instruments": [
+        "Drums"
+      ],
+      "bandIds": [
+        1
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Jacob Pilker",
+      "instruments": [
+        "Electric Guitar"
+      ],
+      "bandIds": [
+        1
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Jack Dobson",
+      "instruments": [
+        "Keyboard",
+        "Vocals"
+      ],
+      "bandIds": [
+        1
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Vinh Le",
+      "instruments": [
+        "Vocals",
+        "Bass",
+        "Electric Guitar"
+      ],
+      "bandIds": [
+        1
+      ]
+    }
+  ],
+  "music": [
+    {
+      "id": 1,
+      "title": "thinkingmansproblem",
+      "url": "http://localhost:3000/assets/music/parkinglotparty/thinkingmansproblem/thinkingmansproblem.mp3",
+      "image": "http://localhost:3000/assets/music/parkinglotparty/thinkingmansproblem/thinkingmansproblem.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Get You Right Back",
+      "url": "http://localhost:3000/assets/music/parkinglotparty/getyourightback/getyourightback.mp3",
+      "image": "http://localhost:3000/assets/music/parkinglotparty/getyourightback/getyourightback.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Getaway",
+      "url": "http://localhost:3000/assets/music/parkinglotparty/getaway/getaway.mp3",
+      "image": "http://localhost:3000/assets/music/parkinglotparty/getaway/getaway.jpg"
+    }
+  ],
+  "shows": [
+    {
+      "id": "1",
+      "date": "2024-06-01",
+      "venue": "Duffy's Tavern",
+      "location": "Lincoln",
+      "ticketCost": "$20"
+    },
+    {
+      "id": "2",
+      "date": "2024-06-15",
+      "venue": "The Bourbon",
+      "location": "Lincoln",
+      "ticketCost": "$25"
+    }
+  ],
+  "messages": []
+}
